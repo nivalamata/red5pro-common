@@ -1,5 +1,6 @@
 package com.red5pro.cluster.streams;
 
+import java.util.List;
 import java.util.concurrent.CopyOnWriteArraySet;
 
 /**
@@ -34,5 +35,11 @@ public interface ProvisionIndex {
 	 * @return Provision if it exists
 	 */
 	public Provision resolveProvision(String context, String name);
+	/**
+	 * Look up all provisions with a given guid.
+	 * @param guid Provision guid
+	 * @return group of MBR streams
+	 */
+	public List<Provision> resolveProvisions(String guid);
 
 }
