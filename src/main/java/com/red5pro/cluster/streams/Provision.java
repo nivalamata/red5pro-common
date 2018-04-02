@@ -15,6 +15,7 @@ public class Provision {
 	public static String Param_Video_Height = "videoHeight";
 	public static String Param_Video_Width = "videoWidth";
 	public static String Param_Video_Profile = "videoProfile";
+	public static String Param_Video_FPS = "videoFPS";
 	public static String Param_Audio_Sample_Rate = "audioSR";
 	public static String Param_Audio_Channel_Count = "audioCh";
 	public static String Param_User_Name = "userName";
